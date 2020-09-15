@@ -1,0 +1,217 @@
+nav{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+  width: 80%;
+  margin-left: auto;
+  /* margin-right: auto; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer{
+  background-image: url("../img/index/fond-ldc.jpg");
+  background-position: center;
+
+  background-repeat: repeat;
+  background-size: contain;
+  text-align: center;
+  text-decoration: underline;
+  padding: 5rem;
+  color: white;
+}
+
+.body--index{
+  background-image: url("../img/index/fond-index.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.list--link{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.link--champ{
+  /* margin-right: 5%; */
+  padding: 2rem 2rem;
+}
+.decoration{
+  text-decoration: none;
+}
+.link--Premierleague{
+  background-image: linear-gradient(45deg, #272743 0%, #272743 50%, white 50%, white 100%);
+
+
+}
+.link--Premierleague a{
+  color: #fb9c00;
+}
+.link--Liga{
+    background-image: linear-gradient(45deg, #d92229 0%, #fdf101 50%, #238fc9 50%, #0a3472 100%);
+
+}
+.link--Liga a{
+  color: red;
+}
+.link--SerieA{
+    background-image: linear-gradient(-45deg, green 0%, green 50%, white 50%, white 100%);
+
+}
+.link--SerieA a{
+  color: red;
+}
+.link--Bundesliga{
+    background-image: linear-gradient(-45deg, white 0%, white 50%, red 50%, red 100%);
+
+}
+.link--Bundesliga a{
+  color: #fb9c00;
+}
+.link--Ligue1{
+    background-image: linear-gradient(#dbe125 0%, #dbe125 100%);
+
+}
+.link--Ligue1 a{
+  color: #202041;
+}
+.link--LigaNos{
+    background-image: linear-gradient(90deg, green 0%, green 50%, red 50%, red 100%);
+}
+.link--LigaNos a{
+  color: #fb9c00;
+}
+.fleche--down{
+  color: rgba(0,0,0, 0);
+  transition: 0.5s all;
+}
+
+.link--champ:hover .fleche--down{
+  color: rgba(0,0,0, 1);
+}
+
+.principal--bloc{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bloc{
+  width: 20%;
+  padding: 2rem 3rem;
+  background-color: rgba(0, 0, 153, 0.8);
+  color: white;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.icone{
+  height: 50px;
+
+}
+.title--link{
+  color: white;
+}
+.text--item{
+  line-height: 1.5rem;
+}
+.link--HomePage{
+  background-color: black;
+  color: #fb9c00;
+  padding: 0.5rem 1rem;
+  margin-left: 2.2rem;
+}
+                /*--------CSS index_PL.html----------  */
+
+.body--PL{
+  background-image: url("../img/pl/PL_fond.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.title--saison{
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: underline;
+}
+.title--saison:hover{
+  color: #000080;
+}
+.list--PL{
+  padding: 2rem 5rem;
+}
+.link--champion{
+  background-color: rgba(255,215,0, 0.8);
+  color: black;
+  text-align: center;
+}
+
+.color--champion{
+  color: black;
+}
+.icone--PL{
+  height: 30px;
+}
+.link--champion:hover .fleche--down{
+  color: rgba(255,255,255, 1);
+}
+.link--dauphin{
+  background-color: rgba(0,0,0, 0.8);
+}
+.color--dauphin{
+  color: #00BFFF;
+}
+.link--dauphin:hover .fleche--down .fas{
+  color: rgba(255,255,255, 1);
+}
+.link--honneur{
+  background-color: rgba(196,156,72, 0.8);
+}
+.color--honneur{
+  color: white;
+}
+.link--honneur:hover .fleche--down{
+  color: rgba(255,255,255, 1);
+}
+.intro--champion{
+  background-color: black;
+}
+.champion{
+  color: #FFD700;
+  line-height: 2rem;
+  text-decoration: none;
+}
+.champion:hover{
+  text-decoration: underline;
+  color: red;
+}
+.dauphin{
+  color: black;
+  text-decoration: none;
+}
+.dauphin:hover{
+  text-decoration: underline;
+  color: white;
+}
+.intro--dauphin{
+  background-color: #00BFFF;
+  line-height: 1.5rem;
+}
+.intro--honneur{
+  background-color: #c49c48 ;
+  line-height: 2rem;
+}
+.honneur{
+  color: white;
+  text-decoration: none;
+}
+.honneur:hover{
+  text-decoration: underline;
+  color: black;
+}
